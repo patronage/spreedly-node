@@ -18,7 +18,7 @@
       "url":"http://github.com/tobyai/spreedly-node/issues"
    },
    "dependencies":{
-      "xml2json":"x"
+      "xml2json":"x.x.x"
    },
    "main":"./lib/spreedly/spreedly",
    "directories":{
