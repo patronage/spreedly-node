@@ -1,41 +1,48 @@
 {
-   "name":"spreedly-node",
-   "description":"A spreedly client library for Node.js",
-   "keywords":[
-      "spreedly",
-      "payment",
-      "subscribe",
-      "plan",
-      "recurring"
-   ],
-   "version":"0.2.0",
-   "author":"Tobias Hoenisch @tobyai",
-   "repository":{
-      "type":"git",
-      "url":"http://github.com/tobyai/spreedly-node.git"
-   },
-   "bugs":{
-      "url":"http://github.com/tobyai/spreedly-node/issues"
-   },
-   "dependencies":{
-      "xml2json":"*",
-      "fstream":"0.1.22",
-      "rimraf":"2.2.0",
-      "npm":"1.3.2"
-   },
-   "main":"./lib/spreedly/spreedly",
-   "directories":{
-      "lib":"./lib/spreedly"
-   },
-   "engines":{
-      "node":"0.10.2",
-      "npm":  "1.3.2"
-   },
-   "private": true,
-   "licenses":[
-      {
-         "type":"Apache License, Version 2.0",
-         "url":"http://www.apache.org/licenses/LICENSE-2.0"
-      }
-   ]
+    "name": "spreedly-node",
+    "description": "A spreedly client library for Node.js",
+    "keywords": [
+        "spreedly",
+        "payment",
+        "subscribe",
+        "plan",
+        "recurring"
+    ],
+    "version": "0.3.0",
+    "author": "Tobias Hoenisch @tobyai",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/tobyai/spreedly-node.git"
+    },
+    "engines": {
+        "node": "0.10.2",
+        "npm": "1.3.2"
+    },
+    "bugs": {
+        "url": "http://github.com/tobyai/spreedly-node/issues"
+    },
+    "dependencies": {
+        //"easyxml": "*",
+        "npm": "1.3.2",
+        //"xml2json": "*"
+    },
+    "devDependencies": {
+        "mocha": "1.13.x",
+        //"request": "2.x.x",
+        "should": "0.6.x",
+        "superagent": "0.4.x",
+        "zombie": "1.4.x"
+    },
+    "scripts": {
+        "test": "mocha --compilers coffee:coffee-script --ignore-leaks -R spec"
+    },
+    "main": "./lib/spreedly/spreedly",
+    "directories": {
+        "lib": "./lib/spreedly"
+    },
+    "private": true,
+    "licenses": [{
+        "type": "Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }]
 }
