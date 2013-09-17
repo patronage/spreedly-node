@@ -10,7 +10,7 @@ This project has been tested with node.js 0.10.2.
   
   var Spreedly = require("spreedly-node").Spreedly;
   …
-  var cli = new Spreedly( site_name, api_key );
+  var cli = new Spreedly( environment_key, api_key );
 
 # Handling errors
 
