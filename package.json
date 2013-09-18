@@ -22,7 +22,7 @@
         "url": "http://github.com/tobyai/spreedly-node/issues"
     },
     "dependencies": {
-        "easyxml":"git+ssh://git@github.com:tobyai/easyxml-node.git",
+        "easyxml":"git+ssh://git@github.com/tobyai/easyxml-node.git",
         "npm": "1.3.2",
         "xml2json": "*",
         "xtend":"*"
